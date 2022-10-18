@@ -1,0 +1,276 @@
+@media screen and (max-width: 1440px) {
+    .chair .section-inner .list {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .chair .section-inner .listbox {
+        margin-bottom: 200px;
+    }
+    .chair .section-inner .list a {
+        height: 90%;
+    }
+    .chair .section-inner .list:nth-child(even) a {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .information .section-inner h2 {
+        font-size: 2.5em;
+    }
+    .information .section-inner h2 span {
+        display: block;
+        line-height: 2;
+    }
+    .information .chairphoto img {
+        right: -70px;
+    }
+}
+
+
+/* ------------ information ------------ */
+
+@media screen and (max-width: 1000px) {
+    .chair .section-inner .listbox {
+        margin-bottom: 100px;
+    }
+    .chair .section-inner .list a {
+        height: 70%;
+    }
+    .chair .section-inner .list:nth-child(even) a {
+        margin-top: 100px;
+    }
+    .chair .section-inner .listbox .nakama:hover:after {
+        top: 0px;
+        right: -110px;
+        font-size: 1.4em;
+    }
+    .chair .section-inner .listbox .ishida:hover:after {
+        bottom: 22px;
+        left: -152px;
+        font-size: 1.4em;
+    }
+    .chair .section-inner .listbox .maeda:hover:after {
+        top: 0px;
+        right: -158px;
+        font-size: 1.4em;
+    }
+    .chair .section-inner .listbox .suzuki:hover:after {
+        bottom: 22px;
+        left: -132px;
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body.home main .main_visual .top h1 {
+        font-size: 1.4em;
+    }
+    body.home main .main_visual .top h2 {
+        font-size: 0.6em;
+    }
+    /* ------------ section-inner ------------ */
+    .section-inner h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+    .information .section-inner p {
+        margin-bottom: 60px;
+    }
+    .information .section-inner {
+        position: relative;
+    }
+    .chairphoto {
+        position: relative;
+        width: 100%;
+    }
+    .information .section-inner h2 {
+        font-size: 2em;
+    }
+    .information .section-inner p {
+        font-size: 0.8em;
+    }
+    .information .chairphoto img {
+        right: 0;
+        width: 80%;
+        margin: 60px auto 0;
+    }
+    /*---------- chair ----------*/
+    .chair .section-inner .wood a img {
+        width: 80%;
+    }
+    .chair .section-inner .masterd a img {
+        width: 80%;
+    }
+    .chair .section-inner .brown a img {
+        width: 80%;
+    }
+    .chair .section-inner .ivory a img {
+        width: 80%;
+    }
+    /*---------- chair list ----------*/
+    .chair .section-inner .listbox {
+        display: block;
+        justify-content: start;
+    }
+    .chair .section-inner .list a {
+        height: 400px;
+    }
+    .chair .section-inner .list {
+        width: 80%;
+        height: 70%;
+        margin-bottom: 100px;
+    }
+    .chair .section-inner .list:nth-child(even) {
+        padding-top: 0;
+        margin-left: auto;
+    }
+    .chair .section-inner .list:nth-child(even) a {
+        margin-top: 0;
+    }
+    .chair .section-inner .listbox {
+        margin-bottom: 0;
+    }
+    /*---------- designer list ----------*/
+    .designer .section-inner .listbox {
+        display: block;
+        justify-content: start;
+    }
+    .designer .section-inner .listbox a {
+        width: 70%;
+        height: auto;
+        display: block;
+        position: relative;
+        margin-bottom: 200px;
+    }
+    .designer .section-inner .listbox a:last-child {
+        margin-bottom: 0;
+    }
+    .designer .section-inner .listbox a .list .name {
+        bottom: auto;
+        top: -20px;
+    }
+    .designer .section-inner .listbox a:nth-child(even) {
+        margin-left: auto;
+    }
+    .designer .section-inner .listbox a:nth-child(even) .list .name {
+        right: auto;
+        left: -100px;
+    }
+    /*---------- viewmore ----------*/
+    .viewmore a::before {
+        content: "";
+        display: block;
+        width: 50px;
+        height: 1px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        right: -25px;
+    }
+    /* ------------------------------------
+------------ footer ------------
+------------------------------------ */
+    footer {
+        text-align: center;
+    }
+    footer .date dt {
+        font-size: 2.5em;
+    }
+    footer .date dd {
+        font-size: 1.5em;
+        margin: 30px 0 70px;
+    }
+    footer .date dd:last-child {
+        font-size: 2em;
+        margin-bottom: 120px;
+    }
+    footer .date .official {
+        margin-bottom: 100px;
+    }
+    footer p {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .chair .section-inner .wood a img {
+        width: 90%;
+    }
+    .chair .section-inner .masterd a img {
+        width: 100%;
+    }
+    .chair .section-inner .brown a img {
+        width: 90%;
+    }
+    .chair .section-inner .ivory a img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    body.home main .main_visual .top h1 {
+        font-size: 1.2em;
+    }
+    body.home main .main_visual .top h2 {
+        font-size: 0.55em;
+    }
+    .chair .section-inner .wood a img {
+        width: 110%;
+    }
+    .chair .section-inner .masterd a img {
+        width: 120%;
+    }
+    .chair .section-inner .brown a img {
+        width: 110%;
+    }
+    .chair .section-inner .ivory a img {
+        width: 100%;
+    }
+    .chair .section-inner .viewmore a,
+    .designer .section-inner .viewmore a {
+        padding: 25px 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .chair .section-inner .wood a img {
+        width: 130%;
+    }
+    .chair .section-inner .masterd a img {
+        width: 140%;
+    }
+    .chair .section-inner .brown a img {
+        width: 130%;
+        right: -50px;
+    }
+    .chair .section-inner .ivory a img {
+        width: 105%;
+        right: -10px;
+    }
+    footer .date dt {
+        font-size: 2em;
+    }
+    footer .date dd {
+        font-size: 1.3em;
+        margin: 30px 0 70px;
+    }
+    footer .date dd:last-child {
+        font-size: 1.7em;
+        margin-bottom: 120px;
+    }
+    footer .date .official {
+        margin-bottom: 100px;
+    }
+    footer p {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .chair .section-inner .list a {
+        height: 300px;
+    }
+}

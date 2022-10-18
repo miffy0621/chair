@@ -1,0 +1,148 @@
+@charset "UTF-8";
+.section-inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section-inner .listtop .list {
+    width: 80%;
+    margin: 10vh 0;
+}
+
+.section-inner h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.product {
+    background: #fff;
+    width: 80%;
+}
+
+.product .view p {
+    line-height: 2em;
+    padding: 0 30px;
+    margin: 20vh 0;
+}
+
+.detail {
+    padding: 0 30px;
+    margin: 20vh 0;
+}
+
+.product .view {
+    top: -25px;
+    position: relative;
+    left: 0;
+    margin: 0 auto auto 0;
+}
+
+.product .view .title div:first-child {
+    font-size: 1.7em;
+}
+
+.product .view .title div:last-child {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.product .view .title div span {
+    font-size: 0.5em;
+    padding-left: 7px;
+}
+
+.product .view .title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.product .line {
+    border-bottom: solid 1px #D1D1D1;
+}
+
+.product .br::before {
+    content: "\A";
+    white-space: pre;
+}
+
+
+/* ------- 商品のサイズ・仕様について ------- */
+
+h2 {
+    font-size: 1.7em;
+    margin-bottom: 30px;
+}
+
+.detail table {
+    margin-left: 20px;
+}
+
+.detail table tr th {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.detail table tr th::after {
+    content: "";
+    display: inline-block;
+    width: 1.5px;
+    height: 22px;
+    background-color: #D1D1D1;
+    position: absolute;
+    top: 2px;
+    right: 13px;
+}
+
+.detail table tr td,
+.required dl dt,
+.required dl dd {
+    padding-bottom: 20px;
+    line-height: 1.5em;
+}
+
+
+/* ------- 保証について ------- */
+
+.required dl div {
+    margin: 0 0 20px 20px;
+}
+
+.required {
+    padding: 0 30px 120px;
+    margin: 20vh 0;
+}
+
+.required dl dt {
+    position: relative;
+    font-size: 1.3em;
+}
+
+.required dl dt::before {
+    content: "";
+    display: inline-block;
+    width: 1.5px;
+    height: 22px;
+    background-color: #D1D1D1;
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
+
+.listmore {
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+
+/* ------- chair ------- */
+
+.image img {
+    position: sticky;
+    top: 100px;
+    margin-top: -100px;
+    height: 75vh;
+}

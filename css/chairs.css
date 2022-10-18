@@ -1,0 +1,202 @@
+@charset "UTF-8";
+
+/* ------------------------------------
+------------ Chair List ------------
+------------------------------------ */
+
+
+/* --------- listtop --------- */
+
+.chair .section-inner .listbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+.chair .section-inner .list {
+    width: 24%;
+    height: 380px;
+}
+
+
+/*-------------------- chairslist--------------------*/
+
+.chair .section-inner .list a {
+    text-decoration: none;
+    font-size: 1.7em;
+    color: #3d3d3d;
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.chair .section-inner .list dt {
+    padding: 14px;
+}
+
+
+/* ------------------------------------
+wood
+------------------------------------ */
+
+.chair .section-inner .wood a img {
+    transition: 0.4s all;
+    width: 120%;
+    position: absolute;
+    bottom: -150px;
+    right: -150px;
+    transform-origin: left bottom;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.chair .section-inner .wood a:hover img {
+    -webkit-transform: rotate(-14deg);
+    transform: rotate(-14deg);
+}
+
+
+/* ------------------------------------
+masterd
+------------------------------------ */
+
+.chair .section-inner .masterd a img {
+    transition: 0.5s all;
+    width: 110%;
+    position: absolute;
+    bottom: -110px;
+    left: -110px;
+}
+
+.chair .section-inner .masterd a:hover img {
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    bottom: -80px;
+    left: -80px;
+}
+
+
+/* ------------------------------------
+brown
+------------------------------------ */
+
+.chair .section-inner .brown a img {
+    transition: 0.5s all;
+    width: 110%;
+    position: absolute;
+    bottom: -130px;
+    right: -30px;
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.chair .section-inner .brown a:hover img {
+    bottom: -90px;
+}
+
+
+/* ------------------------------------
+ivory
+------------------------------------ */
+
+.chair .section-inner .ivory a img {
+    transition: 0.5s all;
+    width: 110%;
+    position: absolute;
+    bottom: -80px;
+    right: -20px;
+}
+
+.chair .section-inner .ivory a:hover img {
+    bottom: -40px;
+}
+
+.chair .section-inner .list:nth-child(even) a {
+    margin-top: 200px;
+}
+
+
+/* ------------------------------------
+ここからホバーしたときの名前
+------------------------------------ */
+
+
+/* wood/No.63 */
+
+.chair .section-inner .listbox .nakama {
+    position: relative;
+}
+
+.chair .section-inner .listbox .nakama:hover:after {
+    content: 'select:\ANakama Yu';
+    white-space: pre;
+    position: absolute;
+    z-index: 100;
+    color: #3d3d3d;
+    right: -150px;
+    top: 80px;
+    font-size: 1.7em;
+    margin-left: auto;
+}
+
+
+/* masterd/No.89 */
+
+.chair .section-inner .listbox .ishida {
+    position: relative;
+}
+
+.chair .section-inner .listbox .ishida:hover:after {
+    content: 'select:\AIshida Kazuki';
+    white-space: pre;
+    position: absolute;
+    z-index: 100;
+    color: #3d3d3d;
+    left: -182px;
+    bottom: -100px;
+    font-size: 1.7em;
+    margin-left: auto;
+    text-align: right;
+}
+
+
+/* brown/No.91 */
+
+.chair .section-inner .listbox .maeda {
+    position: relative;
+}
+
+.chair .section-inner .listbox .maeda:hover:after {
+    content: 'select:\AMaeda Subaru';
+    white-space: pre;
+    position: absolute;
+    z-index: 100;
+    color: #3d3d3d;
+    right: -188px;
+    top: 80px;
+    font-size: 1.7em;
+    margin-left: auto;
+}
+
+
+/* ivory/No.75 */
+
+.chair .section-inner .listbox .suzuki {
+    position: relative;
+}
+
+.chair .section-inner .listbox .suzuki:hover:after {
+    content: 'select:\ASuzuki Mio';
+    white-space: pre;
+    position: absolute;
+    z-index: 100;
+    color: #3d3d3d;
+    left: -182px;
+    bottom: -100px;
+    font-size: 1.7em;
+    margin-left: auto;
+    text-align: right;
+}

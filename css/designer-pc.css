@@ -1,0 +1,61 @@
+ /* ------------------------------------
+------------ designers List ------------
+------------------------------------ */
+ 
+ .designer .section-inner {
+     margin-bottom: 200px;
+ }
+ 
+ .designer .section-inner .listbox {
+     display: flex;
+     justify-content: space-between;
+     margin: 100px 0;
+ }
+ 
+ .designer .section-inner .listbox .list .listinner {
+     overflow: hidden;
+     width: 90%;
+ }
+ 
+ .designer .section-inner .listbox a {
+     width: 20%;
+     height: auto;
+     display: block;
+ }
+ 
+ .designer .section-inner .listbox a .list {
+     position: relative;
+ }
+ 
+ .designer .section-inner .listbox a .listinner img {
+     display: block;
+     transform: scale(1.1);
+     transition-duration: 0.5s;
+ }
+ 
+ .designer .section-inner .listbox a:hover .listinner img {
+     transform: scale(1);
+     transition-duration: 0.5s;
+ }
+ 
+ .designer .section-inner .listbox a img {
+     width: 120%;
+ }
+ 
+ .designer .section-inner .listbox a .list .name {
+     background: #fff;
+     padding: 0.8em 1em;
+     -webkit-transform: rotate(90deg);
+     transform: rotate(90deg);
+     position: absolute;
+     bottom: -20px;
+     right: -100px;
+     color: #505050;
+     font-size: 1.7em;
+     width: 180px;
+ }
+ 
+ .designer .section-inner .listbox a:nth-child(even) .list .name {
+     bottom: auto;
+     top: -10px;
+ }

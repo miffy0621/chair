@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        margin: 60px 0 20px;
+    }
+    .section-inner ul li {
+        list-style: none;
+        width: 45%;
+        margin: 50px 0;
+    }
+    .section-inner ul li .name {
+        box-sizing: border-box;
+    }
+    .section-inner li a .name {
+        font-size: 0.9em;
+        width: 125px;
+    }
+    .section-inner ul {
+        margin-bottom: 40px;
+    }
+    .section-inner ul li {
+        margin: 20px 0;
+    }
+}

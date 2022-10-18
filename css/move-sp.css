@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px) {
+    /* ---------- 01 ---------- */
+    #block01 img {
+        height: 230px;
+    }
+    #block01 p {
+        margin-top: 120px;
+        margin-left: -40px;
+        font-size: 1.5em;
+    }
+    /* ---------- 03 ---------- */
+    #block03 img {
+        height: 220px;
+        transform: rotate(-15deg);
+    }
+    #block03 p {
+        margin-top: 70px;
+        font-size: 1.5em;
+    }
+    /* ---------- 05 ---------- */
+    #block05 img {
+        height: 280px;
+        transform: rotate(-12deg);
+    }
+    #block05 p {
+        margin-top: 150px;
+        font-size: 1.5em;
+    }
+    /* ---------- 07 ---------- */
+    #block07 img {
+        height: 280px;
+        transform: rotate(-12deg);
+    }
+    #block07 p {
+        margin-top: 140px;
+        margin-left: -40px;
+        font-size: 1.5em;
+    }
+    /* ---------- move ---------- */
+    body.home main .main_visual #block01 {
+        top: 100px;
+        left: -20px;
+        opacity: 1;
+    }
+    body.home main .main_visual #block03 {
+        top: 40px;
+        right: 0;
+        opacity: 1;
+    }
+    body.home main .main_visual #block05 {
+        bottom: -20px;
+        right: -20px;
+        opacity: 1;
+    }
+    body.home main .main_visual #block07 {
+        bottom: 80px;
+        left: -60px;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    /* ---------- 01 ---------- */
+    #block01 img {
+        height: 180px;
+    }
+    #block01 p {
+        margin-top: 100px;
+        margin-left: -40px;
+        font-size: 1.3em;
+    }
+    /* ---------- 03 ---------- */
+    #block03 img {
+        height: 180px;
+    }
+    #block03 p {
+        margin-top: 70px;
+        font-size: 1.3em;
+    }
+    /* ---------- 05 ---------- */
+    #block05 img {
+        height: 200px;
+    }
+    #block05 p {
+        margin-top: 80px;
+        margin-right: -20px;
+        font-size: 1.3em;
+    }
+    /* ---------- 07 ---------- */
+    #block07 img {
+        height: 220px;
+    }
+    #block07 p {
+        margin-top: 120px;
+        margin-left: -30px;
+        font-size: 1.3em;
+    }
+    /* ---------- move ---------- */
+    body.home main .main_visual #block01 {
+        top: 100px;
+        left: -20px;
+        opacity: 1;
+    }
+    body.home main .main_visual #block03 {
+        top: 40px;
+        right: 0;
+        opacity: 1;
+    }
+    body.home main .main_visual #block05 {
+        bottom: -20px;
+        right: 0;
+        opacity: 1;
+    }
+    body.home main .main_visual #block07 {
+        bottom: 70px;
+        left: -40px;
+        opacity: 1;
+    }
+}

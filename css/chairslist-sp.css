@@ -1,0 +1,103 @@
+    @media screen and (max-width: 1300px) {
+        .image img {
+            height: 60vh;
+        }
+    }
+    
+    @media screen and (max-width: 1100px) {
+        .image img {
+            height: 50vh;
+        }
+    }
+    
+    @media screen and (max-width: 900px) {
+        .image img {
+            height: 40vh;
+        }
+        .product .view .title {
+            display: block;
+        }
+        .product .view .title div:last-child {
+            text-align: right;
+            padding-top: 20px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .section-inner {
+            flex-direction: column;
+            margin-top: 0;
+            width: 95%;
+        }
+        .section-inner h1 {
+            font-size: 2.5em;
+        }
+        .product .view .title div:first-child {
+            font-size: 1.5em;
+        }
+        .product .view .title div:last-child {
+            font-size: 1.7em;
+        }
+        .viewmore a::before {
+            width: 50px;
+            right: -25px;
+        }
+        .section-inner .productbox {
+            order: 2;
+        }
+        .section-inner .productbox .product {
+            width: 100%;
+            margin-top: 50px;
+        }
+        .section-inner .productbox .product .detail {
+            margin: 0;
+        }
+        .section-inner .productbox .product .view p,
+        .required {
+            margin: 50px 0;
+        }
+        .section-inner .image {
+            position: sticky;
+            top: 0;
+            height: 100%;
+            background: #d1d1d1;
+        }
+        .section-inner .image img {
+            height: 40vh;
+            margin: 20px auto;
+            display: block;
+        }
+        .listmore {
+            width: 100%;
+        }
+        h2 {
+            font-size: 1.4em;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        .section-inner ul .list a {
+            height: 150px;
+        }
+        .product .view p {
+            padding: 0 20px;
+        }
+        .detail {
+            padding: 0 20px;
+        }
+        .required {
+            padding: 0 20px 120px;
+        }
+        .detail table {
+            margin-left: 10px;
+        }
+        .product .view p,
+        .detail table tr th {
+            font-size: 1em;
+        }
+        .detail table tr td,
+        .required dl dt,
+        .required dl dd {
+            font-size: 0.8em;
+        }
+    }

@@ -1,0 +1,42 @@
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+        margin: 60px 0 20px;
+    }
+    .section-inner ul li {
+        width: 45%;
+    }
+    .section-inner ul .list a {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section-inner ul li {
+        margin: 20px 0;
+    }
+    .section-inner ul .list a {
+        height: 150px;
+    }
+    .section-inner ul li .list dt {
+        font-size: 0.7em;
+    }
+    .section-inner .plane a img {
+        bottom: -90px;
+        left: 15px;
+    }
+    .section-inner .wood a img {
+        width: 100%;
+        left: 0;
+        bottom: -70px;
+    }
+    .section-inner .brown a img {
+        width: 100%;
+        bottom: -100px;
+        right: -5px;
+    }
+    .section-inner .blue a img,
+    .section-inner .pine a img {
+        left: 15px;
+    }
+}

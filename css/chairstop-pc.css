@@ -1,0 +1,164 @@
+@charset "UTF-8";
+h1 {
+    font-size: 3em;
+    margin: 120px 0 20px;
+}
+
+.section-inner {
+    display: block;
+}
+
+.section-inner ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.section-inner ul li {
+    list-style: none;
+    margin: 50px 0;
+    width: 22%;
+}
+
+.section-inner ul .list a {
+    text-decoration: none;
+    font-size: 1.7em;
+    color: #333;
+    display: block;
+    height: 300px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.chair .section-inner .list a dl dt {
+    padding: 1em;
+}
+
+
+/* --------------- pine --------------- */
+
+.section-inner .pine a img {
+    transition: 0.5s all;
+    width: 80%;
+    bottom: -90px;
+    left: 30px;
+    position: absolute;
+    align-items: center;
+}
+
+.section-inner .pine a:hover img {
+    bottom: -60px;
+}
+
+
+/* --------------- white --------------- */
+
+.section-inner .white a img {
+    transition: 0.5s all;
+    width: 90%;
+    bottom: -60px;
+    left: 10px;
+    position: absolute;
+    align-items: center;
+}
+
+.section-inner .white a:hover img {
+    bottom: -30px;
+}
+
+
+/* --------------- plane --------------- */
+
+.section-inner .plane a img {
+    transition: 0.5s all;
+    width: 75%;
+    bottom: -100px;
+    left: 30px;
+    position: absolute;
+    align-items: center;
+}
+
+.section-inner .plane a:hover img {
+    bottom: -70px;
+}
+
+
+/* --------------- blue --------------- */
+
+.section-inner .blue a img {
+    transition: 0.5s all;
+    width: 80%;
+    bottom: -60px;
+    left: 30px;
+    position: absolute;
+    align-items: center;
+}
+
+.section-inner .blue a:hover img {
+    bottom: -30px;
+}
+
+
+/* --------------- wood --------------- */
+
+.section-inner .wood a img {
+    transition: 0.5s all;
+    width: 110%;
+    bottom: -120px;
+    left: -10px;
+    position: absolute;
+    align-items: center;
+}
+
+.section-inner .wood a:hover img {
+    bottom: -90px;
+}
+
+
+/* --------------- ivory --------------- */
+
+.section-inner .ivory a img {
+    transition: 0.5s all;
+    width: 90%;
+    bottom: -60px;
+    left: 20px;
+    position: absolute;
+    align-items: center;
+}
+
+.section-inner .ivory a:hover img {
+    bottom: -30px;
+}
+
+
+/* --------------- masterd --------------- */
+
+.section-inner .masterd a img {
+    transition: 0.5s all;
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+    align-items: center;
+}
+
+.section-inner .masterd a:hover img {
+    bottom: -40px;
+}
+
+
+/* --------------- brown --------------- */
+
+.section-inner .brown a img {
+    transition: 0.5s all;
+    width: 110%;
+    position: absolute;
+    bottom: -130px;
+    right: -30px;
+    align-items: center;
+}
+
+.section-inner .brown a:hover img {
+    bottom: -100px;
+}

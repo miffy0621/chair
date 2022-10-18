@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@media screen and (max-width: 1000px) {
+    .section-inner {
+        width: 90%;
+    }
+    h1 {
+        font-size: 2.5em;
+        top: -20px;
+    }
+    .section-inner .profilebox .profile .view {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    .section-inner {
+        margin-top: 0;
+        width: 85%;
+    }
+    .section-inner .profilebox .profile {
+        display: block;
+    }
+    .section-inner .profilebox .profile .image img {
+        width: 100%;
+    }
+    .section-inner .profilebox .profile .view {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .viewmore {
+        margin-bottom: 100px;
+    }
+    .profile .view p {
+        line-height: 1.7em;
+        padding: 5vh 20px;
+        font-size: 0.9em;
+    }
+}

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.section-inner {
+    width: 80%;
+    margin-top: 120px;
+}
+
+.profilebox {
+    margin-top: 20px;
+}
+
+.profilebox .profile {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+h1 {
+    font-size: 3em;
+    top: -30px;
+    position: relative;
+    left: 0;
+    margin: 0 auto auto 0;
+}
+
+.profile .view p {
+    line-height: 2em;
+    padding: 5vh 30px;
+}
+
+.section-inner .profilebox .profile .view {
+    background-color: #fff;
+    position: relative;
+    width: 60%;
+}
+
+.section-inner .profilebox .profile .image img {
+    top: 0;
+    left: 0;
+    width: 80%;
+}
+
+.section-inner .profilebox .profile .listmore a {
+    width: 80%;
+    margin-bottom: 100px;
+}

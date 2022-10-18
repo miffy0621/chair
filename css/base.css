@@ -1,0 +1,168 @@
+/*--------------------	共通 --------------------*/
+
+header,
+body {
+    width: 100%;
+    background: #D1D1D1;
+    font-family: zen-old-mincho, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #474747;
+}
+
+article {
+    width: 100%;
+    position: relative;
+    line-height: 1.6;
+}
+
+article section {
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    position: relative;
+    line-height: 1.6;
+}
+
+article section {
+    width: 100%;
+}
+
+.section-inner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*-------------------- button --------------------*/
+
+.viewmore a {
+    text-decoration: none;
+    background: #474747;
+    color: #fff;
+    padding: 25px 88px;
+    font-size: 1.2em;
+    box-shadow: 5px 5px 15px #a1a1a1;
+    position: relative;
+    transition: 0.5s;
+}
+
+.viewmore a:hover {
+    background: #fff;
+    color: #474747;
+}
+
+.viewmore {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.viewmore a::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+}
+
+
+/*-------------------- guide --------------------*/
+
+.required .guide a {
+    text-decoration: none;
+    background: #fff;
+    color: #474747;
+    padding: 25px 88px;
+    box-shadow: 5px 5px 15px #a1a1a1;
+    position: relative;
+}
+
+.required .guide a:hover {
+    background: #474747;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+.required .guide {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.required .guide a::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 1px;
+    background-color: #474747;
+    position: absolute;
+    top: 50%;
+    right: -50px;
+}
+
+
+/*--------------------	footer --------------------*/
+
+footer {
+    text-align: center;
+}
+
+footer .date dt {
+    font-size: 3em;
+}
+
+footer .date dd {
+    font-size: 1.7em;
+    margin: 30px 0 70px;
+}
+
+footer .date dd:last-child {
+    font-size: 2.5em;
+    margin-bottom: 120px;
+}
+
+footer .date .official {
+    margin-bottom: 100px;
+}
+
+footer p {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1250px) {
+    .section-inner {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .required .guide a,
+    .viewmore a {
+        display: block;
+        width: 80%;
+        padding: 25px 0;
+        margin: 0 auto;
+    }
+    .required .guide a::before {
+        width: 50px;
+        right: -25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .viewmore a {
+        font-size: 1em;
+    }
+    .viewmore a::before {
+        width: 50px;
+        right: -25px;
+    }
+    .required .guide a,
+    .viewmore a {
+        box-sizing: border-box;
+    }
+}
